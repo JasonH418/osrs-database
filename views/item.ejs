@@ -1,0 +1,278 @@
+<%- include("partials/header") %>
+
+<main>
+    <a href="/" class="item-button button-left-arrow">
+        <svg
+                class="left-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+        >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+                <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z"
+                ></path>
+            </g>
+        </svg>
+        <span class="button-text">Back to items</span></a
+    >
+
+    <section class="items">
+        <section class="item-info">
+            <figure class="item-figure">
+                <img
+                        src="<%= item.imageURL %>"
+                        alt="image of <%= item.name %>"
+                        class="item-image"
+                />
+            </figure>
+
+            <section class="item-info-main">
+                <section class="item-info-intro">
+                    <h2 class="item-name"><%= item.name %></h2>
+                    <p class="item-examine">
+                        "<%= item.examine %>"
+                    </p>
+                </section>
+                <section class="details">
+                    <section class="details-col-1">
+                        <section class="detail">
+                            <p class="detail-title">Type</p>
+                            <p class="detail-content"><%= item.typeCategory %></p>
+                        </section>
+                        <section class="detail">
+                            <p class="detail-title">Weight</p>
+                            <p class="detail-content"><%= item.weight %></p>
+                        </section>
+                        <section class="detail">
+                            <p class="detail-title">Members Only</p>
+                            <p class="detail-content member"><%= item.members %></p>
+                        </section>
+                    </section>
+                    <section class="details-col-2">
+                        <section class="detail">
+                            <p class="detail-title">Value</p>
+                            <p class="detail-content price"><%= item.value %> Gp</p>
+                        </section>
+                        <section class="detail">
+                            <p class="detail-title">Tradeable</p>
+                            <p class="detail-content tradeable"><%= item.members %></p>
+                        </section>
+
+                        <% if (item.quest) { %>
+                            <section class="detail">
+                                <p class="detail-title">Quest Required</p>
+                                <p class="detail-content"><%= item.quest.name %></p>
+                            </section>
+                        <% } %>
+
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <% if (item.skillRequirements.length > 0) { %>
+            <section class="skillRequirements">
+                <section class="skillRequirements-header">
+                    <svg
+                            class="bonus-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g clip-path="url(#clip0_1076_36062)">
+                                <path
+                                        d="M23.3826 12.9239C23.7562 12.7691 23.9999 12.4045 23.9999 12V6C23.9999 5.44772 23.5522 5 22.9999 5H16.9999C16.5954 5 16.2308 5.24364 16.076 5.61732C15.9212 5.99099 16.0068 6.42111 16.2928 6.70711L18.2322 8.64649L13.5 13.3787L9.56062 9.43935C8.97484 8.85356 8.02509 8.85356 7.4393 9.43935L0.646409 16.2322C0.255885 16.6228 0.255885 17.2559 0.646409 17.6465L1.35352 18.3536C1.74404 18.7441 2.3772 18.7441 2.76773 18.3536L8.49996 12.6213L12.4393 16.5607C13.0251 17.1465 13.9748 17.1465 14.5606 16.5607L20.3535 10.7678L22.2928 12.7071C22.5788 12.9931 23.0089 13.0787 23.3826 12.9239Z"
+                                        fill="#000000"
+                                ></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1076_36062">
+                                    <rect width="24" height="24" fill="white"></rect>
+                                </clipPath>
+                            </defs>
+                        </g>
+                    </svg>
+                    <h2 class="skillRequirements-title">Skill Requirement</h2>
+                </section>
+                <% for (const skill of item.skillRequirements) { %>
+                    <section class="skill">
+                        <h2 class="skill-title"><%= skill.skill %></h2>
+                        <p class="skill-level attack-level">Level <%= skill.level %></p>
+                    </section>
+                <% } %>
+
+            </section>
+        <% } %>
+
+        <% if (Object.keys(item.bonuses).length > 0) { %>
+            <section class="bonusses">
+                <section class="bonus-header">
+                    <svg
+                            fill="#000000"
+                            viewBox="-2.5 -2.5 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMinYMin"
+                            class="bonus-icon"
+                    >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                    d="M6.778 10.728l1.414 1.414 8.436-8.435-.236-1.179-1.178-.236-8.436 8.436zM3.95 16.385a1 1 0 0 1-1.414 1.414L1.12 16.385a1 1 0 0 1 1.415-1.414l2.828-2.829-1.414-1.414a1 1 0 0 1 1.414-1.414L14.556.12l3.536.707.707 3.536-9.192 9.192a1 1 0 1 1-1.415 1.415l-1.414-1.415-2.828 2.829z"
+                            ></path>
+                        </g>
+                    </svg>
+                    <h2 class="bonus-title">Combat Bonuses</h2>
+                </section>
+                <section class="bonus-all">
+                    <section class="bonus">
+                        <svg
+                                fill="#000000"
+                                viewBox="-2.5 -2.5 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                preserveAspectRatio="xMinYMin"
+                                class="bonus-icon"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                        d="M6.778 10.728l1.414 1.414 8.436-8.435-.236-1.179-1.178-.236-8.436 8.436zM3.95 16.385a1 1 0 0 1-1.414 1.414L1.12 16.385a1 1 0 0 1 1.415-1.414l2.828-2.829-1.414-1.414a1 1 0 0 1 1.414-1.414L14.556.12l3.536.707.707 3.536-9.192 9.192a1 1 0 1 1-1.415 1.415l-1.414-1.415-2.828 2.829z"
+                                ></path>
+                            </g>
+                        </svg>
+                        <p class="bonus-type">Attack</p>
+                        <p class="<%= item.bonuses.attack > 0 ? "green" : item.bonuses.attack < 0 ? "red" : "" %>"><%= item.bonuses.attack > 0 ? `+${item.bonuses.attack}` : item.bonuses.attack < 0 ? `-${item.bonuses.attack}` : item.bonuses.attack %>
+                            %>
+                        </p>
+                    </section>
+                    <section class="bonus">
+                        <svg
+                                class="bonus-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g clip-path="url(#clip0_1076_36062)">
+                                    <path
+                                            d="M23.3826 12.9239C23.7562 12.7691 23.9999 12.4045 23.9999 12V6C23.9999 5.44772 23.5522 5 22.9999 5H16.9999C16.5954 5 16.2308 5.24364 16.076 5.61732C15.9212 5.99099 16.0068 6.42111 16.2928 6.70711L18.2322 8.64649L13.5 13.3787L9.56062 9.43935C8.97484 8.85356 8.02509 8.85356 7.4393 9.43935L0.646409 16.2322C0.255885 16.6228 0.255885 17.2559 0.646409 17.6465L1.35352 18.3536C1.74404 18.7441 2.3772 18.7441 2.76773 18.3536L8.49996 12.6213L12.4393 16.5607C13.0251 17.1465 13.9748 17.1465 14.5606 16.5607L20.3535 10.7678L22.2928 12.7071C22.5788 12.9931 23.0089 13.0787 23.3826 12.9239Z"
+                                            fill="#000000"
+                                    ></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1076_36062">
+                                        <rect width="24" height="24" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </g>
+                        </svg>
+                        <p class="bonus-type">Strength</p>
+                        <p class="<%= item.bonuses.strength > 0 ? "green" : item.bonuses.strength < 0 ? "red" : "" %>"><%= item.bonuses.strength > 0 ? `+${item.bonuses.strength}` : item.bonuses.strength < 0 ? `-${item.bonuses.strength}` : item.bonuses.strength %>
+                            %>
+                        </p>
+                    </section>
+                    <section class="bonus">
+                        <svg
+                                class="bonus-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                        d="M20 6C20 6 19.1843 6 19.0001 6C16.2681 6 13.8871 4.93485 11.9999 3C10.1128 4.93478 7.73199 6 5.00009 6C4.81589 6 4.00009 6 4.00009 6C4.00009 6 4 8 4 9.16611C4 14.8596 7.3994 19.6436 12 21C16.6006 19.6436 20 14.8596 20 9.16611C20 8 20 6 20 6Z"
+                                        stroke="#000000"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                ></path>
+                            </g>
+                        </svg>
+                        <p class="bonus-type">Defence</p>
+                        <p class="bonus-value <%= item.bonuses.defense > 0 ? "green" : item.bonuses.defense < 0 ? "red" : "" %>"><%= item.bonuses.defense > 0 ? `+${item.bonuses.defense}` : item.bonuses.defense < 0 ? `-${item.bonuses.defense}` : item.bonuses.defense %>
+                            %>
+                        </p>
+                    </section>
+                </section>
+            </section>
+        <% } %>
+
+        <% if (item.quest) { %>
+        <section class="related-item">
+            <h2>Quest</h2>
+            <section class="related-item-info">
+                <h3 class="related-item-name"><%= item.quest.name %></h3>
+                <p class="related-item-examine"><%= item.quest.description %></p>
+                <p class="related-item-link">Click to view details</p>
+            </section>
+        </section>
+      <% } %>
+
+        <!--   <section class="related-item">-->
+        <!--      <h2>Related Item</h2>-->
+        <!--      <section class="related-item-info">-->
+        <!--        <h3 class="related-item-name">Abyssal Whip</h3>-->
+        <!--        <p class="related-item-examine">A weapon from the Abyss.</p>-->
+        <!--        <p class="related-item-link">Click to view details</p>-->
+        <!--      </section>-->
+        <!--    </section> -->
+        <!--    <section class="drop-sources">-->
+        <!--      <h2 class="drop-source-header">Drop Sources</h2>-->
+        <!--      <section class="drop-sources-all">-->
+        <!--        <section class="drop-source">-->
+        <!--          <section class="drop-source-info">-->
+        <!--            <h3 class="drop-source-name">Abyssal Demon</h3>-->
+        <!--            <p class="drop-source-level">Combat Level: 124</p>-->
+        <!--          </section>-->
+        <!--          <p class="drop-source-rate">1/512</p>-->
+        <!--        </section>-->
+        <!--        <section class="drop-source">-->
+        <!--          <section class="drop-source-info">-->
+        <!--            <h3 class="drop-source-name">Abyssal Sire</h3>-->
+        <!--            <p class="drop-source-level">Combat Level: 350</p>-->
+        <!--          </section>-->
+        <!--          <p class="drop-source-rate">1/100</p>-->
+        <!--        </section>-->
+        <!--      </section>-->
+        <!--    </section>-->
+    </section>
+</main>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,92 @@
+<%- include("partials/header") %>
+<main>
+    <section class="content items">
+        <form action="#" class="content-search">
+            <label for="search">Search Items</label>
+            <input
+                    type="text"
+                    id="search"
+                    name="search"
+                    placeholder="Filter by name..."
+            />
+        </form>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Value</th>
+                <th>Tradeable</th>
+                <th>Members</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(const item of items) { %>
+                <tr>
+                    <td><%= item.name %></td>
+                    <td><%= item.typeCategory === "quest_item" ? 'Others' : `${item.typeCategory[0].toUpperCase()}${item.typeCategory.substring(1)}` %></td>
+                    <!--          200,000 gp-->
+                    <td class="table-td-value"><%= item.value > 1 ? `${item.value.toLocaleString()} gp` : '-' %></td>
+                    <td><span class="table-td-tradeable"><%= item.tradeable ? 'Yes' : 'No' %>
+                            %>
+                        </span></td>
+                    <td><span class="table-td-members"><%= item.members ? 'Yes' : 'No' %>
+                            %>
+                        </span></td>
+                    <td>
+                        <form>
+                            <button formmethod="get" formaction="/item/<%= item.id %>" class="table-td-actions">
+                                ⏿ <span class="table-td-actions-text">View Details</span>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            <% } %>
+
+            </tbody>
+        </table>
+    </section>
+    <section class="content quests hide">
+        <form action="#" class="content-search">
+            <label for="search">Search Quests</label>
+            <input
+                    type="text"
+                    id="search"
+                    name="search"
+                    placeholder="Filter by name..."
+            />
+        </form>
+        <table>
+            <thead>
+            <tr>
+                <th>Quest Name</th>
+                <th>Difficulty</th>
+                <th>Quests Required</th>
+                <th>QP</th>
+                <th>Members</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for (const quest of quests) { %>
+                <tr>
+                    <td class="table-td-questName"><%= quest.name %></td>
+                    <td class="table-td-difficulty"><%= quest.difficulty %></td>
+                    <td class="table-td-questsRequired"><%= quest.requirements?.questRequirements ? "Yes" : "No" %></td>
+                    <td class="table-td-qp"><%= quest.questPointReward %></td>
+                    <td><span class="table-td-members"><%= quest.membersOnly ? "Yes" : "No" %></span></td>
+                    <td>
+                        <form>
+                            <button formmethod="get" formaction="/quest/<%= quest.id %>" class="table-td-actions">
+                                ⏿ <span class="table-td-actions-text">View Details</span>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            <% } %>
+            </tbody>
+        </table>
+    </section>
+</main>
+<%- include("partials/footer") %>

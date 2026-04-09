@@ -1,7 +1,7 @@
 <%- include("partials/header") %>
-<main>
-    <section class="content items">
-        <form action="#" class="content-search">
+<main class="">
+    <section id="items" class="hidden">
+        <form action="#" class="">
             <label for="search">Search Items</label>
             <input
                     type="text"
@@ -47,7 +47,7 @@
             </tbody>
         </table>
     </section>
-    <section class="content quests hide">
+    <section id="quests" class="">
         <form action="#" class="content-search">
             <label for="search">Search Quests</label>
             <input
@@ -71,14 +71,14 @@
             <tbody>
             <% for (const quest of quests) { %>
                 <tr>
-                    <td class="table-td-questName"><%= quest.name %></td>
-                    <td class="table-td-difficulty"><%= quest.difficulty %></td>
-                    <td class="table-td-questsRequired"><%= quest.requirements?.questRequirements ? "Yes" : "No" %></td>
-                    <td class="table-td-qp"><%= quest.questPointReward %></td>
-                    <td><span class="table-td-members"><%= quest.membersOnly ? "Yes" : "No" %></span></td>
+                    <td><%= quest.name %></td>
+                    <td><%= quest.difficulty %></td>
+                    <td><%= quest.requirements?.questRequirements ? "Yes" : "No" %></td>
+                    <td><%= quest.questPointReward %></td>
+                    <td><span><%= quest.membersOnly ? "Yes" : "No" %></span></td>
                     <td>
                         <form>
-                            <button formmethod="get" formaction="/quest/<%= quest.id %>" class="table-td-actions">
+                            <button formmethod="get" formaction="/quest/<%= quest.id %>">
                                 ⏿ <span class="table-td-actions-text">View Details</span>
                             </button>
                         </form>

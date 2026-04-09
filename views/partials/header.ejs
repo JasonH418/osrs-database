@@ -3,19 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/reset.css" />
-
     <link rel="stylesheet" href="/css/output.css">
     <script src="/js/script.js" defer></script>
     <title>Home</title>
   </head>
   <body class="">
-    <header>
-      <section class="header ">
+    <header class="flex">
         <h1>OSRS Database</h1>
-        <nav class="">
+        <button id="menuToggle" class="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+        <nav id="menu" class="hidden">
           <ul class="">
-            <li class="">
+            <li id="itemButton" class="">
               <a class="" href="#">
                 <svg
                   class="nav-icon"
@@ -48,7 +50,7 @@
                 <span class="">Items</span>
               </a>
             </li>
-            <li class="">
+            <li id="questButton" class="">
               <a class="" href="#">
                 <svg
                   class="nav-icon nav-icon-scroll"
@@ -81,6 +83,5 @@
             </li>
           </ul>
         </nav>
-      </section>
     </header>
 

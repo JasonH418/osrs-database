@@ -10,7 +10,7 @@
                     placeholder="Filter by name..."
             />
         </form>
-        <table>
+        <table class="hidden md:table">
             <thead>
             <tr>
                 <th>Name</th>
@@ -29,7 +29,6 @@
                     <!--          200,000 gp-->
                     <td class="table-td-value"><%= item.value > 1 ? `${item.value.toLocaleString()} gp` : '-' %></td>
                     <td><span class="table-td-tradeable"><%= item.tradeable ? 'Yes' : 'No' %>
-                            %>
                         </span></td>
                     <td><span class="table-td-members"><%= item.members ? 'Yes' : 'No' %>
                             %>
@@ -57,7 +56,7 @@
                     placeholder="Filter by name..."
             />
         </form>
-        <table>
+        <table class="hidden md:table">
             <thead>
             <tr>
                 <th>Quest Name</th>

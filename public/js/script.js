@@ -1,11 +1,11 @@
-const itemsButton = document.querySelector(".nav-list-item-items");
-const questsButton = document.querySelector(".nav-list-item-quests");
-const items = document.querySelector(".items");
-const quests = document.querySelector(".quests");
+const itemsButton = document.getElementById("itemButton")
+const questsButton = document.getElementById("questButton");
+const items = document.getElementById("items");
+const quests = document.getElementById("quests");
 
 const showSection = (active, inactive) => {
-  active.classList.remove("hide");
-  inactive.classList.add("hide");
+  active.classList.remove("hidden");
+  inactive.classList.add("hidden");
 };
 
 itemsButton.addEventListener("click", () => showSection(items, quests));

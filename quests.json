@@ -1,0 +1,2942 @@
+[
+  {
+    "type": "quest",
+    "id": "QUEST-001",
+    "name": "Cold Front",
+    "description": "Embark on the quest 'Cold Front' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cold_front.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Cold Front Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Cold Front.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-002",
+    "name": "A Soul's Bane",
+    "description": "Embark on the quest 'A Soul's Bane' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_souls_bane.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Soul's Bane Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Soul's Bane.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-003",
+    "name": "A Christmas Reunion",
+    "description": "Embark on the quest 'A Christmas Reunion' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_christmas_reunion.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Christmas Reunion Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Christmas Reunion.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-004",
+    "name": "A Clockwork Syringe",
+    "description": "Embark on the quest 'A Clockwork Syringe' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_clockwork_syringe.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Clockwork Syringe Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Clockwork Syringe.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-005",
+    "name": "A Tail of Two Cats",
+    "description": "Embark on the quest 'A Tail of Two Cats' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_tail_of_two_cats.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Tail of Two Cats Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Tail of Two Cats.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-006",
+    "name": "Animal Magnetism",
+    "description": "Embark on the quest 'Animal Magnetism' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/animal_magnetism.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Animal Magnetism Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Animal Magnetism.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-007",
+    "name": "Battle of Forinthry",
+    "description": "Embark on the quest 'Battle of Forinthry' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/battle_of_forinthry.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Battle of Forinthry Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Battle of Forinthry.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-008",
+    "name": "Back to my Roots",
+    "description": "Embark on the quest 'Back to my Roots' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/back_to_my_roots.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Back to my Roots Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Back to my Roots.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-009",
+    "name": "Ancient Awakening",
+    "description": "Embark on the quest 'Ancient Awakening' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/ancient_awakening.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Ancient Awakening Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Ancient Awakening.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-010",
+    "name": "Cabin Fever",
+    "description": "Embark on the quest 'Cabin Fever' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cabin_fever.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Cabin Fever Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Cabin Fever.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-011",
+    "name": "Call of the Ancestors",
+    "description": "Embark on the quest 'Call of the Ancestors' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/call_of_the_ancestors.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Call of the Ancestors Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Call of the Ancestors.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-012",
+    "name": "Clock Tower",
+    "description": "Embark on the quest 'Clock Tower' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/clock_tower.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Clock Tower Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Clock Tower.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-013",
+    "name": "Children of Mah",
+    "description": "Embark on the quest 'Children of Mah' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/children_of_mah.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Children of Mah Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Children of Mah.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-014",
+    "name": "A Fairy Tale III - Battle at Ork's Rift",
+    "description": "Embark on the quest 'A Fairy Tale III - Battle at Ork's Rift' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_fairy_tale_iii_battle_at_orks_rift.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Fairy Tale III - Battle at Ork's Rift Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Fairy Tale III - Battle at Ork's Rift.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-015",
+    "name": "A Fairy Tale II - Cure a Queen",
+    "description": "Embark on the quest 'A Fairy Tale II - Cure a Queen' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_fairy_tale_ii_cure_a_queen.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Fairy Tale II - Cure a Queen Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Fairy Tale II - Cure a Queen.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-016",
+    "name": "A Fairy Tale I - Growing Pains",
+    "description": "Embark on the quest 'A Fairy Tale I - Growing Pains' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_fairy_tale_i_growing_pains.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Fairy Tale I - Growing Pains Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Fairy Tale I - Growing Pains.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-017",
+    "name": "Aftermath",
+    "description": "Embark on the quest 'Aftermath' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/aftermath.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Aftermath Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Aftermath.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-018",
+    "name": "As a First Resort",
+    "description": "Embark on the quest 'As a First Resort' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/as_a_first_resort.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "As a First Resort Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin As a First Resort.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-019",
+    "name": "Blood Runs Deep",
+    "description": "Embark on the quest 'Blood Runs Deep' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/blood_runs_deep.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Blood Runs Deep Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Blood Runs Deep.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-020",
+    "name": "Alpha vs Omega",
+    "description": "Embark on the quest 'Alpha vs Omega' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/alpha_vs_omega.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Alpha vs Omega Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Alpha vs Omega.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-021",
+    "name": "Another Slice of H.A.M.",
+    "description": "Embark on the quest 'Another Slice of H.A.M.' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/another_slice_of_h_a_m.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Another Slice of H.A.M. Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Another Slice of H.A.M..",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-022",
+    "name": "Broken Home",
+    "description": "Embark on the quest 'Broken Home' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/broken_home.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Broken Home Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Broken Home.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-023",
+    "name": "Cold War",
+    "description": "Embark on the quest 'Cold War' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cold_war.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Cold War Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Cold War.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-024",
+    "name": "All Fired Up",
+    "description": "Embark on the quest 'All Fired Up' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/all_fired_up.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "All Fired Up Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin All Fired Up.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-025",
+    "name": "Contact!",
+    "description": "Embark on the quest 'Contact!' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/contact.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Contact! Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Contact!.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-026",
+    "name": "Beneath Scabaras' Sands",
+    "description": "Embark on the quest 'Beneath Scabaras' Sands' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/beneath_scabaras_sands.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Beneath Scabaras' Sands Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Beneath Scabaras' Sands.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-027",
+    "name": "Creature of Fenkenstrain",
+    "description": "Embark on the quest 'Creature of Fenkenstrain' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/creature_of_fenkenstrain.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Creature of Fenkenstrain Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Creature of Fenkenstrain.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-028",
+    "name": "Azzanadra's Quest",
+    "description": "Embark on the quest 'Azzanadra's Quest' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/azzanadras_quest.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Azzanadra's Quest Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Azzanadra's Quest.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-029",
+    "name": "Bringing Home the Bacon",
+    "description": "Embark on the quest 'Bringing Home the Bacon' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/bringing_home_the_bacon.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Bringing Home the Bacon Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Bringing Home the Bacon.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-030",
+    "name": "Curse of the Black Stone",
+    "description": "Embark on the quest 'Curse of the Black Stone' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/curse_of_the_black_stone.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Curse of the Black Stone Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Curse of the Black Stone.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-031",
+    "name": "Back to the Freezer",
+    "description": "Embark on the quest 'Back to the Freezer' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/back_to_the_freezer.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Back to the Freezer Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Back to the Freezer.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-032",
+    "name": "A Shadow over Ashdale",
+    "description": "Embark on the quest 'A Shadow over Ashdale' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_shadow_over_ashdale.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Shadow over Ashdale Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Shadow over Ashdale.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-033",
+    "name": "Battle of the Monolith",
+    "description": "Embark on the quest 'Battle of the Monolith' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/battle_of_the_monolith.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Battle of the Monolith Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Battle of the Monolith.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-034",
+    "name": "Big Chompy Bird Hunting",
+    "description": "Embark on the quest 'Big Chompy Bird Hunting' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/big_chompy_bird_hunting.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Big Chompy Bird Hunting Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Big Chompy Bird Hunting.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-035",
+    "name": "Crocodile Tears",
+    "description": "Embark on the quest 'Crocodile Tears' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/crocodile_tears.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Crocodile Tears Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Crocodile Tears.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-036",
+    "name": "Beneath Cursed Tides",
+    "description": "Embark on the quest 'Beneath Cursed Tides' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": false,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/beneath_cursed_tides.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Beneath Cursed Tides Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Beneath Cursed Tides.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-037",
+    "name": "Catapult Construction",
+    "description": "Embark on the quest 'Catapult Construction' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/catapult_construction.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Catapult Construction Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Catapult Construction.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-038",
+    "name": "City of Senntisten",
+    "description": "Embark on the quest 'City of Senntisten' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/city_of_senntisten.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "City of Senntisten Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin City of Senntisten.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-039",
+    "name": "Corporate Egg-spionage",
+    "description": "Embark on the quest 'Corporate Egg-spionage' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/corporate_egg_spionage.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Corporate Egg-spionage Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Corporate Egg-spionage.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-040",
+    "name": "Buyers and Cellars",
+    "description": "Embark on the quest 'Buyers and Cellars' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/buyers_and_cellars.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Buyers and Cellars Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Buyers and Cellars.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-041",
+    "name": "Biohazard",
+    "description": "Embark on the quest 'Biohazard' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/biohazard.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Biohazard Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Biohazard.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-042",
+    "name": "Between a Rock...",
+    "description": "Embark on the quest 'Between a Rock...' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/between_a_rock.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Between a Rock... Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Between a Rock....",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-043",
+    "name": "'Phite Club",
+    "description": "Embark on the quest ''Phite Club' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/phite_club.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "'Phite Club Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin 'Phite Club.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-044",
+    "name": "Chef's Assistant",
+    "description": "Embark on the quest 'Chef's Assistant' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/chefs_assistant.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Chef's Assistant Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Chef's Assistant.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-045",
+    "name": "Carnillean Rising",
+    "description": "Embark on the quest 'Carnillean Rising' and uncover the secrets behind its story.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/carnillean_rising.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Carnillean Rising Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Carnillean Rising.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-046",
+    "name": "Daughter of Chaos",
+    "description": "Embark on the quest 'Daughter of Chaos' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/daughter_of_chaos.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Daughter of Chaos Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Daughter of Chaos.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-047",
+    "name": "Dead and Buried",
+    "description": "Embark on the quest 'Dead and Buried' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dead_and_buried.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Dead and Buried Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Dead and Buried.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-048",
+    "name": "Cook's Assistant",
+    "description": "Embark on the quest 'Cook's Assistant' and uncover the secrets behind its story.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cooks_assistant.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Cook's Assistant Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin Cook's Assistant.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-049",
+    "name": "A Void Dance",
+    "description": "Embark on the quest 'A Void Dance' and uncover the secrets behind its story.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/a_void_dance.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "A Void Dance Reward Token"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the main quest giver to begin A Void Dance.",
+      "Complete the main objectives and overcome the obstacles.",
+      "Return to the quest giver to finish the quest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-050",
+    "name": "Deadliest Catch",
+    "description": "Embark on Deadliest Catch and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2002-02-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/deadliest_catch.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Deadliest Catch Trophy",
+        "Deadliest Catch Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Deadliest Catch.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-051",
+    "name": "Dealing with Scabaras",
+    "description": "Embark on Dealing with Scabaras and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2003-03-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dealing_with_scabaras.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Dealing with Scabaras Trophy",
+        "Dealing with Scabaras Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Dealing with Scabaras.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-052",
+    "name": "Death Plateau",
+    "description": "Embark on Death Plateau and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2004-04-13",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/death_plateau.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Death Plateau Trophy",
+        "Death Plateau Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Death Plateau.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-053",
+    "name": "Death to the Dorgeshuun",
+    "description": "Embark on Death to the Dorgeshuun and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2005-05-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/death_to_the_dorgeshuun.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Death to the Dorgeshuun Trophy",
+        "Death to the Dorgeshuun Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Death to the Dorgeshuun.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-054",
+    "name": "Defender of Varrock",
+    "description": "Embark on Defender of Varrock and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-06-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/defender_of_varrock.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Defender of Varrock Trophy",
+        "Defender of Varrock Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Defender of Varrock.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-055",
+    "name": "Demon Slayer",
+    "description": "Embark on Demon Slayer and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2007-07-16",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/demon_slayer.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Demon Slayer Trophy",
+        "Demon Slayer Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Demon Slayer.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-056",
+    "name": "Desert Treasure",
+    "description": "Embark on Desert Treasure and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2008-08-17",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/desert_treasure.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Desert Treasure Trophy",
+        "Desert Treasure Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Desert Treasure.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-057",
+    "name": "Desperate Creatures",
+    "description": "Embark on Desperate Creatures and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2009-09-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/desperate_creatures.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Desperate Creatures Trophy",
+        "Desperate Creatures Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Desperate Creatures.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-058",
+    "name": "Desperate Measures",
+    "description": "Embark on Desperate Measures and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2001-01-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/desperate_measures.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Desperate Measures Trophy",
+        "Desperate Measures Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Desperate Measures.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-059",
+    "name": "Desperate Times",
+    "description": "Embark on Desperate Times and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2002-02-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/desperate_times.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Desperate Times Trophy",
+        "Desperate Times Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Desperate Times.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-060",
+    "name": "Devious Minds",
+    "description": "Embark on Devious Minds and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2003-03-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/devious_minds.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Devious Minds Trophy",
+        "Devious Minds Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Devious Minds.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-061",
+    "name": "Diamond in the Rough",
+    "description": "Embark on Diamond in the Rough and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2004-04-13",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/diamond_in_the_rough.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Diamond in the Rough Trophy",
+        "Diamond in the Rough Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Diamond in the Rough.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-062",
+    "name": "Dimension of Disaster",
+    "description": "Embark on Dimension of Disaster and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2005-05-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dimension_of_disaster.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Dimension of Disaster Trophy",
+        "Dimension of Disaster Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Dimension of Disaster.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-063",
+    "name": "Dishonour among Thieves",
+    "description": "Embark on Dishonour among Thieves and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-06-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dishonour_among_thieves.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Dishonour among Thieves Trophy",
+        "Dishonour among Thieves Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Dishonour among Thieves.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-064",
+    "name": "Do No Evil",
+    "description": "Embark on Do No Evil and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2007-07-16",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/do_no_evil.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Do No Evil Trophy",
+        "Do No Evil Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Do No Evil.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-065",
+    "name": "Dragon Slayer",
+    "description": "Embark on Dragon Slayer and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2008-08-17",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_slayer.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Dragon Slayer Trophy",
+        "Dragon Slayer Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Dragon Slayer.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-066",
+    "name": "Dream Mentor",
+    "description": "Embark on Dream Mentor and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2009-09-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dream_mentor.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Dream Mentor Trophy",
+        "Dream Mentor Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Dream Mentor.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-067",
+    "name": "Druidic Ritual",
+    "description": "Embark on Druidic Ritual and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2001-01-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/druidic_ritual.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Druidic Ritual Trophy",
+        "Druidic Ritual Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Druidic Ritual.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-068",
+    "name": "Duck Quest",
+    "description": "Embark on Duck Quest and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2002-02-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/duck_quest.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Duck Quest Trophy",
+        "Duck Quest Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Duck Quest.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-069",
+    "name": "Dwarf Cannon",
+    "description": "Embark on Dwarf Cannon and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2003-03-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dwarf_cannon.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Dwarf Cannon Trophy",
+        "Dwarf Cannon Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Dwarf Cannon.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-070",
+    "name": "Eadgar's Ruse",
+    "description": "Embark on Eadgar's Ruse and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2004-04-13",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/eadgars_ruse.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Eadgar's Ruse Trophy",
+        "Eadgar's Ruse Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Eadgar's Ruse.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-071",
+    "name": "Eagles' Peak",
+    "description": "Embark on Eagles' Peak and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2005-05-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/eagles_peak.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Eagles' Peak Trophy",
+        "Eagles' Peak Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Eagles' Peak.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-072",
+    "name": "Eclipse of the Heart",
+    "description": "Embark on Eclipse of the Heart and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-06-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/eclipse_of_the_heart.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Eclipse of the Heart Trophy",
+        "Eclipse of the Heart Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Eclipse of the Heart.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-073",
+    "name": "Elemental Workshop I",
+    "description": "Embark on Elemental Workshop I and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2007-07-16",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/elemental_workshop_i.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Elemental Workshop I Trophy",
+        "Elemental Workshop I Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Elemental Workshop I.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-074",
+    "name": "Elemental Workshop II",
+    "description": "Embark on Elemental Workshop II and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2008-08-17",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/elemental_workshop_ii.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Elemental Workshop II Trophy",
+        "Elemental Workshop II Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Elemental Workshop II.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-075",
+    "name": "Elemental Workshop III",
+    "description": "Embark on Elemental Workshop III and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2009-09-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/elemental_workshop_iii.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Elemental Workshop III Trophy",
+        "Elemental Workshop III Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Elemental Workshop III.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-076",
+    "name": "Elemental Workshop IV",
+    "description": "Embark on Elemental Workshop IV and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2001-01-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/elemental_workshop_iv.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Elemental Workshop IV Trophy",
+        "Elemental Workshop IV Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Elemental Workshop IV.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-077",
+    "name": "Enakhra's Lament",
+    "description": "Embark on Enakhra's Lament and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2002-02-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/enakhras_lament.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Enakhra's Lament Trophy",
+        "Enakhra's Lament Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Enakhra's Lament.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-078",
+    "name": "Enlightened Journey",
+    "description": "Embark on Enlightened Journey and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2003-03-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/enlightened_journey.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Enlightened Journey Trophy",
+        "Enlightened Journey Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Enlightened Journey.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-079",
+    "name": "Ernest the Chicken",
+    "description": "Embark on Ernest the Chicken and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2004-04-13",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/ernest_the_chicken.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Ernest the Chicken Trophy",
+        "Ernest the Chicken Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Ernest the Chicken.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-080",
+    "name": "Evil Dave's Big Day Out",
+    "description": "Embark on Evil Dave's Big Day Out and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2005-05-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/evil_daves_big_day_out.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Evil Dave's Big Day Out Trophy",
+        "Evil Dave's Big Day Out Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Evil Dave's Big Day Out.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-081",
+    "name": "Extinction",
+    "description": "Embark on Extinction and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-06-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/extinction.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Extinction Trophy",
+        "Extinction Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Extinction.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-082",
+    "name": "Eye of Het I",
+    "description": "Embark on Eye of Het I and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2007-07-16",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/eye_of_het_i.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Eye of Het I Trophy",
+        "Eye of Het I Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Eye of Het I.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-083",
+    "name": "Eye of Het II",
+    "description": "Embark on Eye of Het II and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2008-08-17",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/eye_of_het_ii.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Eye of Het II Trophy",
+        "Eye of Het II Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Eye of Het II.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-084",
+    "name": "Family Crest",
+    "description": "Embark on Family Crest and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2009-09-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/family_crest.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Family Crest Trophy",
+        "Family Crest Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Family Crest.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-085",
+    "name": "Fate of the Gods",
+    "description": "Embark on Fate of the Gods and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2001-01-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fate_of_the_gods.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Fate of the Gods Trophy",
+        "Fate of the Gods Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 4000
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Fate of the Gods.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-086",
+    "name": "Field of Screams",
+    "description": "Embark on Field of Screams and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2002-02-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/field_of_screams.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Field of Screams Trophy",
+        "Field of Screams Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Field of Screams.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-087",
+    "name": "Fight Arena",
+    "description": "Embark on Fight Arena and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2003-03-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fight_arena.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Fight Arena Trophy",
+        "Fight Arena Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Fight Arena.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-088",
+    "name": "Fishing Contest",
+    "description": "Embark on Fishing Contest and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2004-04-13",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fishing_contest.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Fishing Contest Trophy",
+        "Fishing Contest Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Fishing Contest.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-089",
+    "name": "Forgettable Tale of a Drunken Dwarf",
+    "description": "Embark on Forgettable Tale of a Drunken Dwarf and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2005-05-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/forgettable_tale_of_a_drunken_dwarf.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Forgettable Tale of a Drunken Dwarf Trophy",
+        "Forgettable Tale of a Drunken Dwarf Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Forgettable Tale of a Drunken Dwarf.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-090",
+    "name": "Forgiveness of a Chaos Dwarf",
+    "description": "Embark on Forgiveness of a Chaos Dwarf and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-06-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/forgiveness_of_a_chaos_dwarf.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Forgiveness of a Chaos Dwarf Trophy",
+        "Forgiveness of a Chaos Dwarf Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 1500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Forgiveness of a Chaos Dwarf.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-091",
+    "name": "Fur 'n Seek",
+    "description": "Embark on Fur 'n Seek and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2007-07-16",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fur_n_seek.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Fur 'n Seek Trophy",
+        "Fur 'n Seek Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Fur 'n Seek.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-092",
+    "name": "Garden of Tranquillity",
+    "description": "Embark on Garden of Tranquillity and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2008-08-17",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/garden_of_tranquillity.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Garden of Tranquillity Trophy",
+        "Garden of Tranquillity Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Garden of Tranquillity.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-093",
+    "name": "Gertrude's Cat",
+    "description": "Embark on Gertrude's Cat and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2009-09-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/gertrudes_cat.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Gertrude's Cat Trophy",
+        "Gertrude's Cat Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Gertrude's Cat.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-094",
+    "name": "Ghosts Ahoy",
+    "description": "Embark on Ghosts Ahoy and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2001-01-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/ghosts_ahoy.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Ghosts Ahoy Trophy",
+        "Ghosts Ahoy Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Ghosts Ahoy.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-095",
+    "name": "Glorious Memories",
+    "description": "Embark on Glorious Memories and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2002-02-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/glorious_memories.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Glorious Memories Trophy",
+        "Glorious Memories Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Glorious Memories.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-096",
+    "name": "Goblin Diplomacy",
+    "description": "Embark on Goblin Diplomacy and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2003-03-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/goblin_diplomacy.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Goblin Diplomacy Trophy",
+        "Goblin Diplomacy Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Goblin Diplomacy.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-097",
+    "name": "Gower Quest",
+    "description": "Embark on Gower Quest and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2004-04-13",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/gower_quest.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Gower Quest Trophy",
+        "Gower Quest Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Gower Quest.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-098",
+    "name": "Great Egg-spectations",
+    "description": "Embark on Great Egg-spectations and unravel the mystery, danger, and adventure that awaits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2005-05-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/great_egg_spectations.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": [
+        "Great Egg-spectations Trophy",
+        "Great Egg-spectations Access Pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 500
+        }
+      ]
+    },
+    "questSteps": [
+      "Speak to the quest giver to begin Great Egg-spectations.",
+      "Travel to the required area and complete the main objectives.",
+      "Defeat or solve the final challenge.",
+      "Return to the quest giver to claim your reward."
+    ]
+  }
+]
